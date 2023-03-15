@@ -8,8 +8,9 @@
     <!--<uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />-->
 
     <queries>
-        <!-- 수신 받기 원하는 패키지명 적용-->
-        <package android:name="com.example.bottom_sheet_dialog" />
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
     </queries>
 
     <application
